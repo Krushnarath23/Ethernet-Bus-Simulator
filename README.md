@@ -1,10 +1,10 @@
-# Ethernet Simulation Project (Spring 2025)
+# Ethernet Bus Simulation Project
 
 ## Overview
 This project simulates Ethernet behavior using UNIX sockets in C, featuring frame transmission, collision detection, and exponential backoff using a central communication bus process (CBP).
 
 ## Files
-- `cbp.c`: Communication Bus Process to mediate all transmissions
+- `comm_bus.c`: Communication Bus Process to mediate all transmissions
 - `station.c`: Station code to read input frames and transmit using CSMA/CD logic
 - `common.h`: Shared constants and frame structure
 - `Makefile`: Compilation script
