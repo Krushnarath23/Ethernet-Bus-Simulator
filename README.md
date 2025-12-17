@@ -37,4 +37,4 @@ make clean
 ```
 
 ---
-This project meets the Spring 2025 Project requirements outlined in `sp-25-p.pdf`.
+
