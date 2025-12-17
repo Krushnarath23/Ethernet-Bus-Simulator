@@ -1,11 +1,11 @@
-all: cbp station
+all: comm_bus station
 
-cbp: cbp.c
-	gcc -o cbp cbp.c -Wall
+comm_bus: comm_bus.c
+	gcc -o comm_bus comm_bus.c -Wall
 
 station: station.c
 	gcc -o station station.c -Wall
 
 clean:
-	rm -f cbp station *.o logs/*
-	killall cbp
+	rm -f comm_bus station *.o logs/*
+	killall comm_bus || true
